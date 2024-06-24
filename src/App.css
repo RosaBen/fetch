@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.DisplayEmployee {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.DisplayEmployee li {
+  list-style-type: none;
+}
+
+.DisplayEmployee img {
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 10rem;
+}
